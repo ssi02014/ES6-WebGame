@@ -45,11 +45,9 @@ function onClickNumber(e) {
 function onClickOperator(e) {
   e.preventDefault();
 
-  const op = e.target.textContent;
-
   if (numOne) {
-    operator = op;
-    operatorView.value = op;
+    operator = e.target.textContent;
+    operatorView.value = e.target.textContent;
   } else {
     alert("숫자를 먼저 입력해주세요.");
   }
@@ -78,10 +76,10 @@ function onClickCalculate(e) {
       default:
         break;
     }
-    operatorView = "";
     numOne = resultView.value;
-    operator = "";
     numTwo = "";
+    operatorView.value = "";
+    operator = "";
   } else {
     alert("숫자를 먼저 입력해주세요.");
   }
