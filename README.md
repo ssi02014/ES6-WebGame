@@ -5,5 +5,5 @@
 
 ## 👨🏻‍💻 목록
 * [계산기](https://github.com/ssi02014/ES6-WebGame/tree/master/Calculator)
-* [계산기](https://github.com/ssi02014/ES6-WebGame/tree/master/NumberBaseball)
+* [숫자 야구 게임](https://github.com/ssi02014/ES6-WebGame/tree/master/NumberBaseball)
 <br />
