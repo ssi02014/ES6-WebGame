@@ -3,7 +3,7 @@ export function customFetch(options) {
 
   return fetch(url, {
     method,
-    body: body && JSON.stringify(body),
+    body,
     ...config,
   });
 }
